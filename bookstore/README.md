@@ -17,11 +17,17 @@ Install Rails at the command prompt if you haven't yet:
 $ gem install rails
 
 $cd /tmp
+
 $git clone https://github.com/Saminderjit/ruby-on-rails-apps.git
+
 $cd bookstore
+
 $bundle install --without production
+
 $bundle exec rake db:migrate
+
 $bundle exec rake db:test:prepare
+
 $bundle exec rspec spec/
 
 If the tests don't pass, it means there may be something wrong with your system. 
